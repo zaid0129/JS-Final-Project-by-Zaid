@@ -1,4 +1,4 @@
-let sub=()=>{
+let signup=()=>{
 
     let inpname=document.querySelector("#name").value
     let inpnum=document.querySelector("#number").value
@@ -114,10 +114,19 @@ let sub=()=>{
         return false;
     }
     
+
+    localStorage.setItem("Name", inpname)
+    localStorage.setItem("Number", inpnum)
+    localStorage.setItem("Email", inpemail)
+    localStorage.setItem("Passowrd", inppass)
+    localStorage.setItem("Confirm Password", inpcpass)
     
 
+    location.href="Login.html"
+    return false
 
-    alert("Form submitted successfully!");
+
+    // alert("Form submitted successfully!");
     
 
 }

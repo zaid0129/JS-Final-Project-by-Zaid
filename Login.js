@@ -11,13 +11,15 @@
 
     if(loginemail==localemail && loginpass==loacalpass){
 
-        // location.href="Signup.html"
+        
 }
 else {
 
       alert("Invaid Email and Password")  
 }
 
+
+location.href="Signup.html"
 
 
 
