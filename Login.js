@@ -19,7 +19,7 @@ else {
 }
 
 
-location.href="Signup.html"
+location.href="Home.html"
 
 
 
