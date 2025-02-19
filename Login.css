@@ -27,12 +27,21 @@ body {
     background: orange;
     color: white;   
 }
-input, button {
+input {
+    display: block;
+    width: 97vh;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+ button {
     display: block;
     width: 100vh;
     margin: 10px 0;
     padding: 10px;
 }
+
 .google-login {
     background: #db4437;
     color: white;
