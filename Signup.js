@@ -86,11 +86,7 @@ let sub=()=>{
         errpass.innerHTML = "Please enter Password";
         return false;
     } 
-    
-    // else if (!/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(inppass)) {
-    //     errpass.innerHTML = "Password must be at least 8 characters, include a lowercase, uppercase, number, and special character";
-    //     return false;
-    // }
+
 
 
     else if (!(inppass.match(/[1234567890]/) 
