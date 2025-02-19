@@ -6,27 +6,15 @@
 
 
     let localemail=localStorage.getItem("Email")
-    let loacalpass=localStorage.getItem("Password")
+    let localpass=localStorage.getItem("Password")
 
 
-    if(loginemail==localemail && loginpass==loacalpass){
-
-        
+    if(loginemail==localemail && loginpass==localpass){
+    location.href="Home.html"       
 }
 else {
 
-      alert("Invaid Email and Password")  
+      alert("Invaid Email or Password")  
 }
-
-
-location.href="Home.html"
-
-
-
-
-
-
-
-
 
  }
