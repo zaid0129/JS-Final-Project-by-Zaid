@@ -1,8 +1,8 @@
  let login=()=>{
 
 
-    let loginemail=document.querySelector("#inpemail").value
-    let loginpass=document.querySelector("#inppass").value
+    let loginemail=document.querySelector("#loginemail").value
+    let loginpass=document.querySelector("#loginpass").value
 
 
     let localemail=localStorage.getItem("Email")
