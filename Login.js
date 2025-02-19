@@ -1,20 +1,45 @@
- let login=()=>{
+//  let login=()=>{
 
 
-    let loginemail=document.querySelector("#loginemail").value
-    let loginpass=document.querySelector("#loginpass").value
+//     let loginemail=document.querySelector("#loginemail").value
+//     let loginpass=document.querySelector("#loginpass").value
 
 
-    let localemail=localStorage.getItem("Email")
-    let localpass=localStorage.getItem("Password")
+//     let localemail=localStorage.getItem("Email")
+//     let localpass=localStorage.getItem("Password")
 
 
-    if(loginemail==localemail && loginpass==localpass){
-    location.href="Home.html"       
+//     if(loginemail==localemail && loginpass==localpass){
+//     location.href="Home.html"       
+// }
+// else {
+
+//       alert("Invaid Email or Password")  
+// }
+
+//  }
+
+
+
+
+/////------------------------------------------ 
+
+
+let login = () => {
+    let loginemail = document.querySelector("#loginemail").value;
+    let loginpass = document.querySelector("#loginpass").value;
+
+    let localemail = localStorage.getItem("Email");
+    let localpass = localStorage.getItem("Password");
+
+    // if (!localemail || !localpass) {
+    //     alert("No account found. Please register first.");
+    //     return;
+    // }
+
+    if (loginemail === localemail && loginpass === localpass) {
+        location.href = "Home.html";
+    } else {
+        alert("Invalid Email or Password");
+    }
 }
-else {
-
-      alert("Invaid Email or Password")  
-}
-
- }
