@@ -17,14 +17,14 @@ body {
     padding: 20px;
     border-left: 1px solid #ddd;
 }
-.toggle-buttons button {
+.account button {
     padding: 10px;
     border: none;
     cursor: pointer;
 }
-.toggle-buttons .active {
+.account .personalacc {
     background: orange;
-    color: white;
+    color: white;   
 }
 input, button {
     display: block;
