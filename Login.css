@@ -16,6 +16,7 @@ body {
 .login {
     padding: 20px;
     border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 .account button {
     padding: 10px;
@@ -28,7 +29,7 @@ body {
 }
 input, button {
     display: block;
-    width: 100%;
+    width: 100vh;
     margin: 10px 0;
     padding: 10px;
 }
