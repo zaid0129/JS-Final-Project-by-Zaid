@@ -118,7 +118,7 @@ let signup=()=>{
     localStorage.setItem("Name", inpname)
     localStorage.setItem("Number", inpnum)
     localStorage.setItem("Email", inpemail)
-    localStorage.setItem("Passowrd", inppass)
+    localStorage.setItem("Password ", inppass)
     localStorage.setItem("Confirm Password", inpcpass)
     
 
