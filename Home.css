@@ -39,11 +39,17 @@ nav ul li a {
     font-size: 18px;
 }
 
+.book-btn {
+    background: #ffcc00;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
 .hero {
     text-align: center;
     padding: 300px 20px;
     background: url("./Images/luxury-hotel-reception-hall-lounge-restaurant-with-high-ceiling.jpg") no-repeat center center/cover;
-    color: white;
+    color: white ;
 }
 
 .hero h1 {
