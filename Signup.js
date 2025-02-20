@@ -1,3 +1,14 @@
+VANTA.HALO({
+    el: ".cloud",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00
+  })
+
+
+
 let signup=()=>{
 
     let inpname=document.querySelector("#name").value
