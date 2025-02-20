@@ -1,3 +1,6 @@
+///-----------------ANIMATIONS--------------//
+
+
 VANTA.GLOBE({
     el: "#your-element-selector",
     mouseControls: true,
@@ -6,9 +9,8 @@ VANTA.GLOBE({
     minHeight: 200.00,
     minWidth: 200.00,
     scale: 1.00,
-    scaleMobile: 1.00})
-
-
+    scaleMobile: 1.00
+  })
 
 
 let signup=()=>{

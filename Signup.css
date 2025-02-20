@@ -72,6 +72,19 @@ input[type="submit"]:hover {
 
 
 #cloud{
-
-width: 100%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
 }
+
+@keyframes cloud-animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-500px);
+    }
+}
+
+
