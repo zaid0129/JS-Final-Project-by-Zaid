@@ -47,5 +47,5 @@ let login = () => {
     } else {
         alert("Invalid Email or Password");
     }
-    return false
+
 }
