@@ -2,7 +2,7 @@
 
 
 VANTA.GLOBE({
-    el: "#your-element-selector",
+    el: "#cloud",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
