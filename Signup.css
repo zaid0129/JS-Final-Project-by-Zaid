@@ -72,20 +72,11 @@ input[type="submit"]:hover {
 
 
 #cloud{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 40px;
     width: 100%;
+        
     height: 100%;
+    object-fit: cover;
 }
 
-@keyframes cloud-animation {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-500px);
-    }
-}
 
 
