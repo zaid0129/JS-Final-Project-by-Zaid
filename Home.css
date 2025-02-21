@@ -169,3 +169,12 @@ h5 {
     font-size: 14px;
     color: gray;
 }
+
+
+h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    font-weight: normal;
+    line-height: 80px;
+    letter-spacing: 1px;
+}
