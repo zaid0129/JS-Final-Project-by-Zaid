@@ -112,7 +112,24 @@ nav ul li a {
     font-family: "Gilda Display";
 }
 
+
 .image-section {
     position: relative;
     width: 50%;
+}
+
+
+
+.image-section img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    margin: 50px 50px 50px 50px;
+    transition: transform 0.3s ease;
+    filter: brightness(0.8);
+    /* cursor: pointer; */
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1);
+    }
 }
