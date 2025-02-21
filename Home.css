@@ -41,11 +41,11 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
-
 .login-btn {
-    background: #ffcc00;
+    background-color:#b08a63;
     padding: 8px 15px;
     border-radius: 5px;
+    color: white;
 }
 
 .hero {
