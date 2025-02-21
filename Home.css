@@ -178,3 +178,10 @@ h1 {
     line-height: 80px;
     letter-spacing: 1px;
 }
+
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
