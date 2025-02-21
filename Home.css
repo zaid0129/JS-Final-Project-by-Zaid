@@ -133,3 +133,20 @@ nav ul li a {
         filter: brightness(1);
     }
 }
+
+
+.highlight-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #b08a63;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    filter: brightness(0.8);
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1);
+    }
+}
