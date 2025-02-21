@@ -59,10 +59,13 @@ nav ul li a {
     margin-bottom: 10px;
     font-family: "Gilda Display";
 }
-
 .hero p {
     font-size: 22px;
     margin-bottom: 20px;
+    font-family: "Gilda Display";
+    color: white;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .welcome{
