@@ -156,3 +156,9 @@ nav ul li a {
     font-size: 30px;
     font-weight: bold;
 }
+
+
+.text-section {
+    width: 50%;
+    padding: 20px;
+}
