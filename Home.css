@@ -111,3 +111,8 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: "Gilda Display";
 }
+
+.image-section {
+    position: relative;
+    width: 50%;
+}
