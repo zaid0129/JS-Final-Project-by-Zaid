@@ -221,7 +221,7 @@ p {
 
 /* ----------RESPONSIVENESS-------- */
 
-@media screen { 
+/* @media screen { 
     .container {
         flex-direction: column;
     }
@@ -252,4 +252,4 @@ p {
         font-size: 12px;
         color: gray;
     }
-}
+} */
