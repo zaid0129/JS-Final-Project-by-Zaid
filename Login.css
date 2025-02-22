@@ -27,7 +27,7 @@ body {
     cursor: pointer;
 }
 .account .personalacc {
-    background-color: #b08a63;
+    background-color: orange;
     color: white;   
 }
 input {
@@ -35,6 +35,7 @@ input {
     width: 97vh;
     margin: 10px 0;
     padding: 10px;
+    
 }
 
  button {
