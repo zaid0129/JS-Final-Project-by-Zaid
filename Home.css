@@ -225,9 +225,7 @@ p {
     .container {
         flex-direction: column;
     }
-   .image-section {
-    
-}
+
     .highlight-box {
         position: relative;
         bottom: 0;
