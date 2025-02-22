@@ -27,7 +27,7 @@ body {
     cursor: pointer;
 }
 .account .personalacc {
-    background: orange;
+    background-color: #b08a63;
     color: white;   
 }
 input {
