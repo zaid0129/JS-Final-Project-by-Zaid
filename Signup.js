@@ -5,7 +5,6 @@
 //     el: "#cloud",
 //     mouseControls: true,
 //     touchControls: true,
-//     gyroControls: false,
 
 
 let signup=()=>{
