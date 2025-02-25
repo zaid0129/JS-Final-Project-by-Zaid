@@ -45,6 +45,17 @@ input {
     padding: 10px;
 }
 
+/* Submit Button */
+input[type="submit"] {
+    /* background: linear-gradient(135deg, #667eea, #764ba2); */
+    background-color: #c49a6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
 .google-login {
     background: #db4437;
     color: white;
