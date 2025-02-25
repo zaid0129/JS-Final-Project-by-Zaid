@@ -1,7 +1,6 @@
 ///-----------------ANIMATIONS--------------//
 
 
-// VANTA.GLOBE({
 
 
 let signup=()=>{
