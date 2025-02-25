@@ -2,7 +2,6 @@
 
 
 // VANTA.GLOBE({
-//     el: "#cloud",
 
 
 let signup=()=>{
