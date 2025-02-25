@@ -141,7 +141,7 @@ let signup=()=>{
     return false
 
 
-    // alert("Form submitted successfully!");
+    alert("Form submitted successfully!");
     
 
 }
