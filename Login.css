@@ -56,6 +56,13 @@ input[type="submit"] {
     transition: 0.3s;
 }
 
+input[type="submit"]:hover {
+    /* background: linear-gradient(135deg, #764ba2, #667eea); */
+    background-color: #f3eee8;
+    color: #c49a6c;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
 .google-login {
     background: #db4437;
     color: white;
