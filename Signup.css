@@ -56,7 +56,7 @@ input[type="text"], input[type="submit"] {
 }
 
 input[type="text"]:focus {
-    border-color: #667eea;
+    border-color: #c49a6c;
     outline: none;
     box-shadow: 0px 0px 8px rgba(102, 126, 234, 0.5);
 }
