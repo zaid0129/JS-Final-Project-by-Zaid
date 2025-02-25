@@ -122,11 +122,14 @@ let signup=()=>{
     localStorage.setItem("Confirm Password", inpcpass)
     
 
+    alert("SignUp Completed!");
+    
+
     location.href="Login.html"
     return false
 
 
-    alert("SignUp Completed!");
+    // alert("SignUp Completed!");
     
 
 }
