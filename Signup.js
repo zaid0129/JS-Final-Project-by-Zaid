@@ -4,7 +4,6 @@
 // VANTA.GLOBE({
 //     el: "#cloud",
 //     mouseControls: true,
-//     touchControls: true,
 
 
 let signup=()=>{
