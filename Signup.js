@@ -1,7 +1,3 @@
-
-
-
-
 let signup=()=>{
 
     let inpname=document.querySelector("#name").value
