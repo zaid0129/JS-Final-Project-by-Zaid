@@ -728,5 +728,24 @@ form input {
 
 
 
+/* --------------------BANNER-5------------------MEDIA QUERY------------- */
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card.special {
+        transform: scale(1);
+    }
+}
 
 
