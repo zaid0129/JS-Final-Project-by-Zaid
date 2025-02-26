@@ -658,3 +658,36 @@ form input {
     }
 }
 
+
+
+
+/* -----------------------BANNER-2------------MEDIAQUERY---------- */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section,
+    .text-section {
+        width: 100%;
+    }
+
+    .highlight-box {
+        bottom: 10px;
+        left: 10px;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
