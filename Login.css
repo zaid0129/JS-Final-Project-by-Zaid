@@ -63,6 +63,7 @@ input[type="submit"]:hover {
     background: #db4437;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 /* Responsive Design */
