@@ -16,7 +16,6 @@ body {
     transform: translate(-50%, -50%);
     height: 100%;
     background-size: cover;
-    /* animation: cloud-animation 10s infinite linear; */
 }
 
 /* Form Container */
