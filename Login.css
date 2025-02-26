@@ -4,52 +4,45 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(./Images/popular-resort-amara-dolce-vita-luxury-hotel-with-pools-water-parks-recreational-area-along-sea-coast-turkey-tekirova-kemer.jpg); 
-    background-size: cover;
-    
+    background: url(./Images/popular-resort-amara-dolce-vita-luxury-hotel-with-pools-water-parks-recreational-area-along-sea-coast-turkey-tekirova-kemer.jpg) no-repeat center center/cover;
+    margin: 0;
 }
+
 .container {
     display: flex;
-    /* background: linear-gradient( #706868 ,#f5f5f5); */
-    background-color: #f5f5f5;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.95);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    width: 800px;
+    text-align: center;
 }
+
 .login {
     padding: 20px;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
+
 .account button {
     padding: 10px;
     border: none;
     cursor: pointer;
-}
-.account .personalacc {
     background-color: grey;
-    color: white;   
-}
-input {
-    display: block;
-    width: 97vh;
-    margin: 10px 0;
-    padding: 10px;
-    
+    color: white;
+    width: 100%;
 }
 
- button {
+input, button {
     display: block;
-    width: 100vh;
+    width: 100%;
     margin: 10px 0;
     padding: 10px;
+    border-radius: 5px;
 }
 
-/* Submit Button */
 input[type="submit"] {
-    /* background: linear-gradient(135deg, #667eea, #764ba2); */
     background-color: #c49a6c;
     color: white;
     border: none;
@@ -59,14 +52,24 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    /* background: linear-gradient(135deg, #764ba2, #667eea); */
     background-color: #f3eee8;
     color: #c49a6c;
-    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .google-login {
     background: #db4437;
     color: white;
     border: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    input, button {
+        padding: 8px;
+    }
 }
