@@ -749,3 +749,34 @@ form input {
 }
 
 
+
+
+/* --------------------FOOTER------------------MEDIA QUERY------------- */
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container, .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact, .footer-message, .footer-map iframe {
+        width: 90%;
+    }
+
+    .footer-newsletter form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-newsletter input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
