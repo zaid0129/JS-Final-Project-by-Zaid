@@ -1,12 +1,10 @@
-
-
-/* -----------------------BANNER-1----------------------- */
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* -----------------------BANNER-1----------------------- */
 
 body {
     background-color: white;
