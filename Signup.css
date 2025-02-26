@@ -22,7 +22,6 @@ body {
 form {
     background: rgba(4, 1, 12, 0.1);
     backdrop-filter: blur(10px);
-    /* margin-top: 30px; */
     margin-left: 500px;
     padding: 0 40px;
     border-radius: 15px;
