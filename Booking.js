@@ -5,7 +5,7 @@ let fetchData=async()=>{
     console.log(data)
     let display=document.querySelector("#display")
     data.map((e)=>{
-    display.innerHTML+=`<tbody>
+    display.innerHTML+=`<tr>
     <td>${e.name}</td>
     <td>${e.age}</td>
     <td>${e.city}</td>
@@ -13,10 +13,11 @@ let fetchData=async()=>{
     <td>${e.number}</td>
     <td>${e.fair}</td>
     <td>${e.person}</td>
+    <td>${e.date}</td>
     <td>${e.fair*e.person}</td>
     <td onclick="deletee('${e.id}')">cancel</td>
     <td onclick="formfill('${e.id}')">update</td>
-    </tbody>`
+    </tr>`
     })
     }
     // fetchData()
@@ -35,6 +36,7 @@ let fetchData=async()=>{
         let inpaadhar = document.querySelector("#aadhar").value;
         let inpnum = document.querySelector("#number").value;
         let inpperson = document.querySelector("#Person").value;
+        let inpdate = document.querySelector("#opponitment").value;
      
     
         let url ='http://localhost:3000/hotel'
@@ -49,9 +51,10 @@ let fetchData=async()=>{
                 city: inpcity,
                 aadhar: inpaadhar,
                 number: inpnum,
+                fair: 2000,
                 person: inpperson,
                 date: inpdate,
-                fair: 2000,
+                
               
     
             })
@@ -77,25 +80,26 @@ let fetchData=async()=>{
     
         enter name : <input type="text" id="upname" value="${data.name}"><br><br>
     
-          enter name : <input type="text" id="upage" value="${data.age}"><br><br>
+          enter age : <input type="text" id="upage" value="${data.age}"><br><br>
     
            enter city : <input type="text" id="upcity" value="${data.city}" ><br><br>
     
            enter your aadhar : <input type="text" id="upaadhar" value="${data.aadhar}" ><br><br>
     
            enter your number : <input type="text" id="upnumber" value="${data.number}"><br><br>
-    
+
            
-            <select id="upPerson" value="${data.Person}">
+           enter no. of person: <select id="upPerson" value="${data.Person}">
                 
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
                 <option value="4">Four</option>
             </select><br><br>
+
+          enter date to update:  <input type="date" id="opponitment"><br><br>
     
               <input type="submit" value="Book your Room" onclick="return finaleupdate('${data.id}')" >
-    
     
         `
         document.querySelector("#show").innerHTML=formdata
@@ -109,6 +113,7 @@ let fetchData=async()=>{
         let inpaadhar = document.querySelector("#upaadhar").value;
         let inpnum = document.querySelector("#upnumber").value;
         let inpperson = document.querySelector("#upPerson").value;
+        let inpdate = document.querySelector("#update").value;
       
     
         let url =`http://localhost:3000/hotel/${id}`
@@ -131,7 +136,7 @@ let fetchData=async()=>{
             })
         })
     
-        // location.href = "crud.html" 
+        location.href = "Show.html" 
         return false
     
     }

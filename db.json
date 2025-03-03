@@ -1,25 +1,48 @@
 {
-    "hotel": [
-      {
-        "name": "uygfgyugvbgh hu",
-        "age": "23",
-        "city": "bhopal",
-        "aadhar": "97972983479834y4",
-        "number": "8085212206",
-        "person": "1",
-        "fair": 2000,
-        "id": "fe24"
-      },
-      {
-        "name": "viplove sana",
-        "age": 23,
-        "city": "bhopal",
-        "aadhar": "97972983479834y4",
-        "number": 8085212206,
-        "fair": "4000",
-        "person": "7",
-        "id": "790d"
-     }
-    ]
-  }
-  
+  "hotel": [
+    {
+      "name": "uygfgyugvbgh hu",
+      "age": "23",
+      "city": "bhopal",
+      "aadhar": "97972983479834y4",
+      "number": "8085212206",
+      "fair": 2000,
+      "person": "1",
+      "date": "",
+      "id": "fe24"
+    },
+    {
+      "id": "b582",
+      "name": "Zaid",
+      "age": "",
+      "city": "",
+      "aadhar": "",
+      "number": "",
+      "person": "",
+      "date": "",
+      "fair": 2000
+    },
+    {
+      "id": "e12d",
+      "name": "Zaid",
+      "age": "",
+      "city": "",
+      "aadhar": "",
+      "number": "",
+      "person": "",
+      "date": "",
+      "fair": 2000
+    },
+    {
+      "id": "4b69",
+      "name": "viplove",
+      "age": "45",
+      "city": "bhopal",
+      "aadhar": "798798654564",
+      "number": "7684684444",
+      "fair": 2000,
+      "person": "3",
+      "date": "2025-03-12"
+    }
+  ]
+}
