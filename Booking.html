@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING PAGE</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="./Booking.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+    <!-------------------------------NAVIGATION BAR------------------------------->
+
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
+ <header>
+        <div class="logo"> <div data-aos="fade-right" data-aos-duration="2000">Siddique's Hotel</div></div>
+        <nav>
+            <ul>
+                <li><a href="#about"><div data-aos="flip-up" data-aos-duration="2000">About</div>
+                  </a></li>
+                <li><a href="#rooms"><div data-aos="flip-up" data-aos-duration="2000">Rooms</div></a></li>
+                <li><a href="#contact"><div data-aos="flip-up" data-aos-duration="2000">Contact</div></a></li>
+                <li><a href="./Login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+
+<!---------------------------BOOKING SECTION------------------------ --> 
+
+<section class="apoint">
+    <div id="container">
+    <div class="card1">
+        <h1>Add Your Informations</h1>
+    <form action="">
+        <input type="text" id="name" placeholder="enter your name"><br><br>
+        <input type="text" id="age" placeholder="enter your age"><br><br>
+        <input type="text" id="city" placeholder="enter city"><br><br>
+        <input type="text" id="aadhar" placeholder="your aadharno."><br><br>
+        <input type="text" id="number" placeholder="your number"><br><br>
+    
+      
+
+        <select id="Person">
+            <option value="">No of Person</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+        </select><br><br>
+        
+        <input type="date" id="opponitment"><br><br>
+        <input type="submit" value="Book your Room" onclick="return userinput()" >
+    </form>
+    </div>
+    
+
+    <div class="card2">
+     
+    </div>
+
+    </div>
+    </section>
+
+
+
+   
+    <!----------------------FOOTER------------------->
+
+
+
+    <footer>
+        <div class="footer-container">
+            <!-- Left: Google Map -->
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.2846144814644!2d77.43031987483042!3d23.232727908453835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c435605f269e1%3A0xe67446598d15ad0e!2sCybrom%20Technology%20Pvt.%20Ltd.%20-%20Python%2C%20Data%20Science%2C%20Cyber%20Security%2C%20AI%20%26%20Web%20Development%20Courses%20%26%20Training%20in%20Bhopal!5e0!3m2!1sen!2sin!4v1740324938916!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Middle: Contact Info -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><strong>Reservation:</strong> + 91 111-111-1111</p>
+                <p><strong>Booking:</strong> + 91 777-888-9999</p>
+            </div>
+
+            <!-- Right: Drop a Line -->
+            <div class="footer-message">
+                <h3>Drop a Line</h3>
+                <p><strong>Information:</strong> info@hotel.com</p>
+                <p><strong>Reception:</strong> book@hotel.com</p>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="footer-bottom">
+            <div class="footer-info">
+                <h3>Phone Support</h3>
+                <p>24 HOURS A DAY</p>
+                <p class="phone-number">+ 91 123-123-1234</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Connect With Us</h3>
+                <p>SOCIAL MEDIA CHANNELS</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>SIGN UP FOR SPECIAL OFFERS</p>
+                <form>
+                    <input type="email" placeholder="Insert your email" required>
+                    <button class="sub" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./Swipper.js"> </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
