@@ -54,6 +54,17 @@
       "fair": 2000,
       "person": "3",
       "date": "2026-02-02"
+    },
+    {
+      "id": "97e3",
+      "name": "Zaid",
+      "age": "",
+      "city": "",
+      "aadhar": "",
+      "number": "",
+      "fair": 2000,
+      "person": "",
+      "date": ""
     }
   ]
 }
