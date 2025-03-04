@@ -1,3 +1,19 @@
+// let  paginationdata=()=>{
+//     $('#page').pagination({
+//         dataSource: [1, 2, 3, 4, 5, 6, 7, ... , 195],
+//         pageSize: 5,
+//         showSizeChanger: true,
+//         callback: function(data, pagination) {
+//             // template method of yourself
+//             var html = template(data);
+//             dataContainer.html(html);
+//         }
+//     })
+// }
+
+
+
+
 let fetchData=async()=>{
     let url="http://localhost:3000/hotel"
     let res=await fetch(url,{method:"GET"});za
