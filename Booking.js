@@ -1,8 +1,10 @@
 let fetchData=async()=>{
     let url="http://localhost:3000/hotel"
-    let res=await fetch(url)
+    let res=await fetch(url,{method:"GET"});za
     let data=await res.json()
     console.log(data)
+
+    
     let display=document.querySelector("#display")
     data.map((e)=>{
     display.innerHTML+=`<tr>
