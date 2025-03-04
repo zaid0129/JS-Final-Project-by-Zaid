@@ -38,7 +38,7 @@ let fetchData=async()=>{
     </tr>`
     })
     }
-    // fetchData()
+    //  fetchData()
     
     let deletee = (id)=>{
     
