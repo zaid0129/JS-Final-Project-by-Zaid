@@ -107,6 +107,7 @@ let paginationData=(data)=>{
     
     
         let formdata = `
+        <div class="update">
     
         enter name : <input type="text" id="upname" value="${data.name}"><br><br>
     
@@ -131,6 +132,7 @@ let paginationData=(data)=>{
     
               <input type="submit" value="Book your Room" onclick="return finaleupdate('${data.id}')" >
     
+              </div>
         `
         document.querySelector("#show").innerHTML=formdata
     
