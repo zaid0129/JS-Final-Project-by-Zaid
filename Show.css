@@ -227,6 +227,8 @@ th {
         filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.2)) drop-shadow(0px -4px 10px rgba(0, 0, 0, 0.2));
     }
     cursor: pointer;
+   font-family: "Gilda Display";
+    font-size: 18px;
 }
 
 td {
@@ -238,6 +240,8 @@ td {
         filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.2)) drop-shadow(0px -4px 10px rgba(0, 0, 0, 0.2));
     }
     cursor: pointer;
+    font-family: "Gilda Display";
+    font-style: italic;
 }
 
 
