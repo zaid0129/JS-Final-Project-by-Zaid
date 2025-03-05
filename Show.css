@@ -257,15 +257,50 @@ button:hover {
 
 /* ---------------------UPDATE-FORM-------------------------- */
 
-.update{
-    width: 900px;
-    margin: auto;
+
+/* Update Form Container */
+.update {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
     padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center; 
+
+    
+}
+
+/* Input Fields */
+.update input,
+.update select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: yellow;
+    font-size: 16px;
 }
+
+/* Submit Button */
+.update input[type="submit"] {
+    background: #c49a6c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.update input[type="submit"]:hover {
+    background: #a17850;
+}
+
+
+
+
+
 
 
 /* ------------------------------FOOTER-------------------------------- */
