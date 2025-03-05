@@ -62,11 +62,33 @@ nav ul li a {
 
 /* -----------------------------SHOW--------------------------- */
 
+/* Heading */
+
+h1{
+    text-align: center;
+    color: rgb(38, 11, 146);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
 
 /* Search bar */
 
-
-
+.search{
+    width: auto;
+    padding: 10px;
+    margin: 10px 0;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    font-size: 22px;
+    /* font-weight: bold; */
+    color: #c49a6c;
+    /* background-color: #f1f1f1; */
+    /* background-color: white; */
+    outline: none;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+}
 
 
 
