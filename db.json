@@ -54,6 +54,17 @@
       "fair": 2000,
       "person": "",
       "date": ""
+    },
+    {
+      "id": "3dbe",
+      "name": "Zaid",
+      "age": "78",
+      "city": "bhopal",
+      "aadhar": "4789798789798",
+      "number": "7987987979",
+      "fair": 2000,
+      "person": "2",
+      "date": "2565-02-01"
     }
   ]
 }
