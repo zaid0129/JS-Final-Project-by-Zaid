@@ -62,93 +62,6 @@ nav ul li a {
 
 /* -----------------------------SHOW--------------------------- */
 
-/* Heading
-
-h1{
-    text-align: center;
-    color: rgb(38, 11, 146);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-}
-
-/* Search bar */
-
-/* .search{
-    width: auto;
-    padding: 10px;
-    margin: 10px 0; */
-    /* border: 1px solid #ccc; */
-    /* border-radius: 5px;
-    font-size: 22px; */
-    /* font-weight: bold; */
-    /* color: #c49a6c; */
-    /* background-color: #f1f1f1; */
-    /* background-color: white; */
-    /* outline: none;
-    transition: 0.3s;
-    display: flex;
-    justify-content: center;
-}
-
- */
-
-
-
-/* Table Styling */
-/* table {
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    background: white;
-    border-collapse: collapse;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    overflow: hidden;
-} */
-
-/* Table Header */
-/* thead {
-    background: #c49a6c;
-    color: white;
-}
-
-tr, th {
-    padding: 15px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-.cancel-btn {
-    background: red;
-    color: white;
-}
-
-.update-btn {
-    background: green;
-    color: white;
-}
-
- */ 
-
-
-
-
- /* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background: url('your-image.jpg') no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-} */
-
-
 
 h1 {
     font-size: 36px;
@@ -229,8 +142,7 @@ th {
 
 td {
     color: #333;
-    background: rgba(255, 255, 255, 0.8);
-   
+    background: rgba(255, 255, 255, 0.8);  
     cursor: pointer;
     font-family: "Gilda Display";
     font-style: italic;
@@ -501,3 +413,66 @@ p {
     }
 }
 
+
+
+/* Mobile Navigation */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+}
+
+
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .tablecontainer {
+        overflow-x: auto;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+/* Responsive Footer */
+
+@media (max-width: 768px) {
+    .footer-container, .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact, .footer-message, .footer-map iframe {
+        width: 90%;
+    }
+
+    .footer-newsletter form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-newsletter input {
+        width: 100%;
+    }
+}
