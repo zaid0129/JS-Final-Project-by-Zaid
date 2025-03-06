@@ -66,3 +66,22 @@ let booknow=()=>{
   }
 
 }
+
+
+
+let checklogin=()=>{
+
+  if(localStorage.getItem("Email") && localStorage.getItem("Pass")){
+
+    document.querySelector(".login-btn").style.display="none";
+}
+
+else {
+
+document.querySelector(".logout-btn").style.display="none"
+document.querySelector(".login-btn").style.display="block"
+
+}
+
+
+}

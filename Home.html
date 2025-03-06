@@ -13,7 +13,7 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body>
+<body onclick="checklogin()">
     <div data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="1000">
@@ -26,6 +26,7 @@
                 <li><a href="#rooms"><div data-aos="flip-up" data-aos-duration="2000">Rooms</div></a></li>
                 <li><a href="#contact"><div data-aos="flip-up" data-aos-duration="2000">Contact</div></a></li>
                 <li><span onclick="login()" class="login-btn">Login</span></li>
+                <li><span onclick="logout()" class="logout-btn">Logout</span></li>
             </ul>
         </nav>
     </header>
