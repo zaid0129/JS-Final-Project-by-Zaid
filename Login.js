@@ -51,3 +51,18 @@ let login = () => {
     }
   return false
 }
+
+
+let booknow=()=>{
+
+  if (localStorage.getItem("Email")){
+
+  
+    location.href="Booking.html"
+  }
+
+  else {
+    alert("Please Login First");
+  }
+
+}
