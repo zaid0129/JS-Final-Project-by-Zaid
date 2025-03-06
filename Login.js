@@ -55,7 +55,7 @@ let login = () => {
 
 let booknow=()=>{
 
-  if (localStorage.getItem("Email")){
+  if (localStorage.getItem("Email") && localStorage.getItem("Pass")){
 
   
     location.href="Booking.html"
