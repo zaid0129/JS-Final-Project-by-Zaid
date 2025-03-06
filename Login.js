@@ -55,6 +55,7 @@ let login = () => {
 
 let booknow=()=>{
 
+
   if (localStorage.getItem("Email") && localStorage.getItem("Pass")){
 
   
@@ -64,6 +65,18 @@ let booknow=()=>{
   else {
     alert("Please Login First");
   }
+
+
+
+}
+
+
+let logout=()=>{
+
+  localStorage.removeItem("Email");
+  localStorage.removeItem("Pass");
+  location.href="Home.html";
+
 
 }
 
