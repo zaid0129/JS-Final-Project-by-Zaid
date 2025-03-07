@@ -38,6 +38,7 @@ let login = () => {
     let localemail = localStorage.getItem("Email");
     let localpasss = localStorage.getItem("Pass");
       console.log("paSS",localpasss);
+
       
     // if (!localemail || !localpass) {
     //     alert("No account found. Please register first.");
@@ -52,6 +53,12 @@ let login = () => {
   return false
 }
 
+
+let loginnn=()=>{
+
+  location.href = "Signup.html";
+
+}
 
 let booknow=()=>{
 
