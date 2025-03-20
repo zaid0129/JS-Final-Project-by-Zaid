@@ -1,17 +1,6 @@
 {
   "hotel": [
     {
-      "id": "3e0a",
-      "name": "zaid",
-      "age": "55",
-      "city": "Dubai",
-      "aadhar": "97987979898798",
-      "number": "9725350277",
-      "fair": 2000,
-      "person": "2",
-      "date": "2050-02-20"
-    },
-    {
       "id": "8534",
       "name": "aaliya",
       "age": "18",
@@ -23,8 +12,30 @@
       "date": "2050-02-20"
     },
     {
-      "id": "34f2",
-      "name": "saad",
+      "id": "566f",
+      "name": "zaid",
+      "age": "25",
+      "city": "Dubai",
+      "aadhar": "97987979898798",
+      "number": "9725350277",
+      "fair": 2000,
+      "person": "2",
+      "date": "2050-02-20"
+    },
+    {
+      "id": "f8e7",
+      "name": "zaid",
+      "age": "25",
+      "city": "Dubai",
+      "aadhar": "97987979898798",
+      "number": "9725350277",
+      "fair": 2000,
+      "person": "2",
+      "date": "2050-02-20"
+    },
+    {
+      "id": "eb37",
+      "name": "zaid",
       "age": "25",
       "city": "Dubai",
       "aadhar": "97987979898798",

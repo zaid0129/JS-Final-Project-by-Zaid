@@ -45,7 +45,7 @@ let paginationData=(data)=>{
     <td>${e.person}</td>
     <td>${e.date}</td>
     <td>${e.fair*e.person}</td>
-    <td onclick="deletee('${e.id}')">cancel</td>
+    <td onclick="confirmdelete('${e.id}')">cancel</td>
     <td onclick="formfill('${e.id}')">update</td>
     </tr>`
     })
@@ -64,6 +64,7 @@ let paginationData=(data)=>{
             confirmButtonText: "Yes, delete it!"
           }).then((result) => {
             if (result.isConfirmed) {
+                deletee(id)
               Swal.fire({
                 title: "Deleted!",
                 text: "Your file has been deleted.",
