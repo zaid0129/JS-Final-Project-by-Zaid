@@ -1,59 +1,48 @@
 {
   "hotel": [
     {
-      "id": "e12d",
-      "name": "Zaid",
-      "age": "",
-      "city": "",
-      "aadhar": "",
-      "number": "",
-      "person": "",
-      "date": "",
-      "fair": 2000
-    },
-    {
-      "id": "4b69",
-      "name": "viplove",
-      "age": "45",
-      "city": "bhopal",
-      "aadhar": "798798654564",
-      "number": "7684684444",
-      "fair": 2000,
-      "person": "3",
-      "date": "2025-03-12"
-    },
-    {
-      "id": "65b3",
-      "name": "Tanmay",
-      "age": "18",
-      "city": "harda",
-      "aadhar": "4645645464",
-      "number": "456465456",
-      "fair": 2000,
-      "person": "3",
-      "date": "2026-02-02"
-    },
-    {
-      "id": "97e3",
-      "name": "Zaid",
-      "age": "",
-      "city": "",
-      "aadhar": "",
-      "number": "",
-      "fair": 2000,
-      "person": "",
-      "date": ""
-    },
-    {
-      "id": "3dbe",
-      "name": "Zaid",
-      "age": "78",
-      "city": "bhopal",
-      "aadhar": "4789798789798",
-      "number": "7987987979",
+      "id": "4796",
+      "name": "zaid",
+      "age": "22",
+      "city": "Bina",
+      "aadhar": "64949898984984",
+      "number": "9893830121",
       "fair": 2000,
       "person": "2",
-      "date": "2565-02-01"
+      "date": "2026-02-01"
+    },
+    {
+      "id": "1905",
+      "name": "sir",
+      "age": "22",
+      "city": "Bina",
+      "aadhar": "64949898984984",
+      "number": "9893830121",
+      "fair": 2000,
+      "person": "2",
+      "date": "2026-02-01"
+    },
+    {
+      "id": "f5ad",
+      "name": "john",
+      "age": "22",
+      "city": "Bina",
+      "aadhar": "64949898984984",
+      "number": "9893830121",
+      "fair": 2000,
+      "person": "2",
+      "date": "2026-02-01"
+    },
+    {
+      "id": "3521",
+      "name": "wick",
+      "age": "22",
+      "city": "Bina",
+      "aadhar": "64949898984984",
+      "number": "9893830121",
+      "fair": 2000,
+      "person": "2",
+      "date": "2026-02-01"
     }
   ]
 }

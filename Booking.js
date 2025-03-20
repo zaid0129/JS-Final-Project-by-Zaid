@@ -3,8 +3,8 @@ let fetchData=async()=>{
     let res=await fetch(url,{method:"GET"});
     let data=await res.json()
     console.log(data)
-    // paginationData(data)
-    Datashow(data)
+    paginationData(data)
+    // Datashow(data)
 
 }
 
