@@ -73,7 +73,7 @@ let booknow=()=>{
     Swal.fire({
       icon: "error",
       title: "Oops...",
-      text: "Something went wrong!",
+      text: "Please Login First!",
       footer: '<a href="./Signup.html">Go to signup page</a>'
     });  }
 
