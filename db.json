@@ -1,37 +1,37 @@
 {
   "hotel": [
     {
-      "id": "1905",
-      "name": "sir",
-      "age": "22",
-      "city": "Bina",
-      "aadhar": "64949898984984",
-      "number": "9893830121",
+      "id": "3e0a",
+      "name": "zaid",
+      "age": "55",
+      "city": "Dubai",
+      "aadhar": "97987979898798",
+      "number": "9725350277",
       "fair": 2000,
       "person": "2",
-      "date": "2026-02-01"
+      "date": "2050-02-20"
     },
     {
-      "id": "f5ad",
-      "name": "john",
-      "age": "22",
-      "city": "Bina",
-      "aadhar": "64949898984984",
-      "number": "9893830121",
+      "id": "8534",
+      "name": "aaliya",
+      "age": "18",
+      "city": "Dubai",
+      "aadhar": "97987979898798",
+      "number": "9725350277",
       "fair": 2000,
       "person": "2",
-      "date": "2026-02-01"
+      "date": "2050-02-20"
     },
     {
-      "id": "3521",
-      "name": "wick",
-      "age": "22",
-      "city": "Bina",
-      "aadhar": "64949898984984",
-      "number": "9893830121",
+      "id": "34f2",
+      "name": "saad",
+      "age": "25",
+      "city": "Dubai",
+      "aadhar": "97987979898798",
+      "number": "9725350277",
       "fair": 2000,
       "person": "2",
-      "date": "2026-02-01"
+      "date": "2050-02-20"
     }
   ]
 }
