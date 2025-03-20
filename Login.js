@@ -70,8 +70,12 @@ let booknow=()=>{
   }
 
   else {
-    alert("Please Login First");
-  }
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "Something went wrong!",
+      footer: '<a href="./Signup.html">Go to signup page</a>'
+    });  }
 
 
 
